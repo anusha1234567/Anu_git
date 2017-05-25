@@ -1,0 +1,44 @@
+# Anu_git
+create a new repository(GIT_PROJECT) 
+create a new directory, open it and perform a 
+git init
+to create a new git repository(Anu_git).
+git clone <url> (checkout a repository).
+git config --list
+git config --global user.name "anusha1234567"
+git config --global user.email "bheemanaanusha8985@gmail.com"
+
+                          add                 commit
+    WORKING DIRECTORY-------------->INDEX----------------->HEAD
+
+git add <filename> (add it to the Index) 
+git commit -m "MESSAGE TO BE COMMITED(shown in github repo)"
+     If u have not cloned an existing repository and want to connect ur repository to a remote server,u need to add it with
+git remote add <remote name>(added on github repo)
+git remote (display remote name on github repo)
+     BRANCHIN:-Branches r used to develop features isolated from each other.The master branch is the "default" branch when u create a repo.
+           Use other branches for development and merge them back to the master branch upon completion.
+git branch (displayed branch name on github repo)
+       pushing changes:-Your changes are now in the HEAD of your local working copy.To send those changes to your remote repository
+git push origin <url>
+        Create a new branch named "Anusha" and switch to it using
+git checkout -b Anusha
+          switch back to master
+git checkout master
+          a branch is not available to others unless you push the branch to your remote repository
+git push origin <branch>
+          update & merge:-to update your local repository to the newest commit, execute 
+git pull
+           in your working directory to fetch and merge remote changes.to merge another branch into your active branch (e.g.master),use
+git merge <branch>
+          in both cases git tries to auto-merge changes.Unfortunately,this is not always possible and results in conflicts.
+          u r responsible to merge those conflicts manually by editing the files shown by git. 
+          After changing, u need to mark them as merged with
+git add <filename>
+          before merging changes, you can also preview them by using
+git diff <source_branch> <target_branch>
+      Tagging:-it's recommended to create tags for software releases.this is a known concept,which also exists in SVN.
+      You can create a new tag named 1.0.0 by executing
+git tag 1.0.0 1b2e1d63ff
+             the 1b2e1d63ff stands for the first 10 characters of the commit id you want to reference with your tag.
+             You can get the commit id by looking at the... 
