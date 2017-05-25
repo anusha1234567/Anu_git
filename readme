@@ -1,4 +1,4 @@
-# Anu_git
+  # Anu_git
 create a new repository(GIT_PROJECT) 
 create a new directory, open it and perform a 
 git init
@@ -42,3 +42,9 @@ git diff <source_branch> <target_branch>
 git tag 1.0.0 1b2e1d63ff
              the 1b2e1d63ff stands for the first 10 characters of the commit id you want to reference with your tag.
              You can get the commit id by looking at the... 
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[B[B[A[A[B   [B[B[B[B[B[B[B[B[B[B[B[B[B[B [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D[D
+
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D
+
+
+[C[C[C[A[C[C[C[C[C[C[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B
