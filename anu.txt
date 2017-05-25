@@ -1,0 +1,4 @@
+Git is a distributed version control system.
+Git is much faster than Subversion()[Dsvn[C[D).
+Git repositories are much smaller than Subversion()[Dsvn[C[D).
+Git is a open source management tool.
